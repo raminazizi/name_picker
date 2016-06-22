@@ -3,7 +3,8 @@ var wdi_24_names = ["Adrianna", "Andrew", "Christian",
 "Kevin", "Matt", "Michael", "Ramin", "Taylor"];
 
 
-var i= Math.floor((Math.random()* wdi_24_names.length)+0);
+
 function eachname(){
+  var i= Math.floor((Math.random()* wdi_24_names.length));
 console.log(wdi_24_names[i]);
 }
